@@ -1,0 +1,124 @@
+body {
+	background-color: #00BFFF;
+	padding: 0;
+	margin: 0;
+  text-align: center;
+}
+
+
+#navbar{
+  background-color: #333;
+}
+
+#navbar ul{
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li{
+  display: inline-grid;
+  padding-left: 1%;
+}
+
+#navbar a{
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: center;
+  padding-right: 17px;
+}
+
+#navbar p{
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  font-family: Segoe Print;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+img {
+  border-radius: 50%;
+  padding: 5%;
+}
+
+h1 {
+  color: #000000;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 250%;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 5%;
+}
+
+h3 {
+  color: #000000;
+  font-style: normal;
+  font-family: cursive;
+  text-align: left;
+  padding-left: 12%;
+}
+
+a {
+  background-color: #00BFFF;
+  font-family: "Times New Roman" ;
+  font-weight: bold;
+  font-size: 140%;
+  text-align: center;
+  text-decoration: none;
+  }
+
+hr {
+  height:2px;
+  width: 1200px;
+  border-width:10;
+  background-color:Green;
+}
+
+table, th, td {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  margin: 2%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  text-align: left;
+  padding-left: 12%;
+	margin-top: 1%;
+  font: bold;
+  color: black;
+}
+
+dl {
+  text-align: left;
+  padding-left: 20%;
+	margin-top: 1%;
+  font: bold;
+  color: black;
+}
+
+dd {
+  text-align: left;
+  padding-left: 8%;
+	margin-top: 1%;
+  font: bold;
+  color: black;
+}
+
+#main-footer{
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+}
