@@ -18,3 +18,23 @@ So I made a fake portfolio using html and css.
 
 Link : http://saadsalim278.byethost15.com/PortfolioDesign/ind.html 
 
+
+### Lab Task 2 :
+
+          Create a registration form using PHP HTML CSS.
+         
+N.B: Using third party elements is strictly provided. 
+
+Here Normal html code will show the result in php file.
+
+I use md5() to hash my password and protect it.
+
+Check the code if you want to.
+
+No one can access the inspect element view as I turned off context menu.
+
+Have Fun !
+
+Server Link : http://saadsalim278.byethost15.com/RegistrationFormUsingPHP/registrations.html
+
+
