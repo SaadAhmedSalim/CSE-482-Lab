@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" oncontextmenu="return false">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Registration Form</title>
+  </head>
+  <body>
+    <form method="get" class="form-inline" action="output.php" autocomplete="off" >
+ <div class="container">
+   <h1>Register Here</h1>
+   <p>Please fill in this form to create an account.</p>
+   <hr>
+
+   <label for="name"><b>Name</b></label>
+   <input type="text" placeholder="Enter your Name" name="name" id="name" required>
+   <br>
+
+   <label for="uname"><b>Username</b></label>
+   <input type="text" placeholder="Unique Username" name="username" id="uname" required>
+   <br>
+
+   <label for="email"><b>Email</b></label>
+   <input type="text" placeholder="Enter Email" name="email" id="email" required>
+   <br>
+
+   <label for="psw"><b>Password</b></label>
+   <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+   <br>
+
+   <label for="psw-repeat"><b>Repeat Password</b></label>
+   <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+   <br>
+
+   <label for="contact"><b>Contact No</b></label>
+   <input type="text" placeholder="Enter Your Mobile Number" name="contact" id="num" required>
+   <br>
+
+
+   <label for="gender"><b>Gender</b></label>
+    <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label> <br><br>
+
+   <label for="skills"><b>Programming Skills</b></label>
+    <input type="checkbox" id="java" name="skills" value="java">
+      <label for="java">Java</label>
+      <input type="checkbox" id="ruby" name="skills" value="ruby">
+      <label for="ruby">Ruby</label>
+      <input type="checkbox" id="net" name="skills" value="net">
+      <label for="net">.NET</label>
+      <input type="checkbox" id="android" name="skills" value="android">
+      <label for="android">Android</label><br><br>
+
+   <label for="college"><b>College : </b></label>
+
+   <select id="college">
+     <option label="">select college</option>
+     <option label="SCPSC">Savar Cantonment Public School & College</option>
+     <option label="NDC">Notre Dame College</option>
+     <option label="DC">Dhaka College</option>
+   </select>
+
+   <hr>
+
+   <p class="para">By Creating An Account You Agree to Our <a href="#">Terms & Privacy</a>.</p>
+   <button type="submit" class="registerbtn">Register</button>
+ </div>
+
+ <div class="container signin">
+   <p>Already have an account? <a href="#">Sign in</a>.</p>
+ </div>
+
+</form>
+
+
+<footer id="main-footer">
+  <p>&copy; <i>Saad Ahmed Salim</i></p>
+</footer>
+
+  </body>
+</html>
