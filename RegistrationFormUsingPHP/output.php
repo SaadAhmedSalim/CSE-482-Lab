@@ -8,7 +8,7 @@ $gender = $_GET["gender"];
 $skills = $_GET["skills"];
 $psw = $_GET["psw"];
 $repsw = $_GET["psw-repeat"];
-
+$college = $_GET["college"];
 
 if($psw.md5(1)!=$repsw.md5(1))
 {
@@ -23,5 +23,5 @@ echo "Password : " .$psw.md5(1). "<br>";
 echo "Contact No : " .$contact. "<br>";
 echo "Gender : " .$gender. "<br>";
 echo "Programming Skills : " .$skills. "<br>";
-
+echo "College : " .$college. "<br>";
 ?>
