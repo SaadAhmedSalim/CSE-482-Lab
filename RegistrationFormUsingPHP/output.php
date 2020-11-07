@@ -1,14 +1,14 @@
 <?php
 
-$name = $_GET["name"];
-$username = $_GET["username"];
-$email = $_GET["email"];
-$contact = $_GET["contact"];
-$gender = $_GET["gender"];
-$skills = $_GET["skills"];
-$psw = $_GET["psw"];
-$repsw = $_GET["psw-repeat"];
-$college = $_GET["college"];
+$name = $_POST["name"];
+$username = $_POST["username"];
+$email = $_POST["email"];
+$contact = $_POST["contact"];
+$gender = $_POST["gender"];
+$skills = $_POST["skills"];
+$psw = $_POST["psw"];
+$repsw = $_POST["psw-repeat"];
+$college = $_POST["college"];
 
 if($psw.md5(1)!=$repsw.md5(1))
 {
