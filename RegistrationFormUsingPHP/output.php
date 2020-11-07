@@ -16,12 +16,12 @@ if($psw.md5(1)!=$repsw.md5(1))
 } else echo "Password Matched !";
 
 echo "<br>";
-echo "Name : " .$name."<br>";
-echo "Username : " .$username."<br>";
-echo "Email : " .$email. "<br>";
-echo "Password : " .$psw.md5(1). "<br>";
-echo "Contact No : " .$contact. "<br>";
-echo "Gender : " .$gender. "<br>";
-echo "Programming Skills : " .$skills. "<br>";
-echo "College : " .$college. "<br>";
+echo "Name : " .htmlentities($name."<br>";
+echo "Username : " .htmlentities($username)."<br>";
+echo "Email : " .htmlentities($email). "<br>";
+echo "Password : " .htmlentities($psw.md5(1)). "<br>";
+echo "Contact No : " .htmlentities($contact). "<br>";
+echo "Gender : " .htmlentities($gender). "<br>";
+echo "Programming Skills : " .htmlentities($skills). "<br>";
+echo "College : " .htmlentities($college). "<br>";
 ?>
