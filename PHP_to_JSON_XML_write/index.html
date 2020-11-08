@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+  </head>
+  <body>
+
+    <h1> Php Form Validation </h1>
+    <form action="form.php" method="get">
+      Name: <input type="text" name="name" value=""required placeholder="Type Name..."><br>
+      User Name: <input type="text" name="username" value=""required placeholder="Type Username..."><br>
+      Password: <input type="password" name="password" value=""required placeholder="Type Password..."><br>
+      Retype Password: <input type="password" name="retypepassword" value=""required placeholder="Retype Password.."><br>
+      Gender: <input type="radio"required name="gender" value="male">
+                  <label for="male">Male</label>
+                  <input type="radio" name="gender" value="female">
+                  <label for="female">Female</label>
+              <input type="radio" name="gender" value="others">
+                  <label for="others">Others</label><br>
+        Programming Skills: <input type="checkbox" name="programmingskills" value="python">
+                                <label for="python">Python</label>
+                                <input type="checkbox" name="programmingskills" value="C++">
+                                <label for="C++">C++</label>
+                                <input type="checkbox" name="programmingskills" value="Java">
+                                <label for="Java">Java</label>
+                                <input type="checkbox" name="programmingskills" value=".net">
+                                <label for=".net">.Net</label><br>
+                                          Contact No: <input type="number" name="contactno" value="" required placeholder="contact No..."><br>
+                                          Email: <input type="email" name="email" value="" required placeholder="Email....."><br>
+                                          College: <select name="college">
+                                          <option value="Dhaka College "> Dhaka College </option>
+                                          <option value="Savar College"> Savar College </option>
+                                          <option value="Cantonment College"> Cantonment College </option>
+                                          </select><br>
+                                          <input type="submit" value="Submit">
+    </form>
+
+  </body>
+</html>

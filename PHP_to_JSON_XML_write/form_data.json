@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Saad Ahmed Salim",
+        "username": "Saad",
+        "password": "1234asd",
+        "retypepassword": "1234asd",
+        "gender": "male",
+        "programmingskills": "C++",
+        "contactno": "01521215397",
+        "email": "saad.salim@northsouth.edu",
+        "college": "Cantonment College"
+    },
+    {
+        "name": "123123",
+        "username": "qeqwe",
+        "password": "213123",
+        "retypepassword": "31231",
+        "gender": "male",
+        "programmingskills": "python",
+        "contactno": "2131231",
+        "email": "13123@g.com",
+        "college": "Cantonment College"
+    },
+    {
+        "name": "123123",
+        "username": "qeqwe",
+        "password": "213123",
+        "retypepassword": "31231",
+        "gender": "male",
+        "programmingskills": "python",
+        "contactno": "2131231",
+        "email": "13123@g.com",
+        "college": "Cantonment College"
+    }
+]
